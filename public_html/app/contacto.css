@@ -20,6 +20,7 @@ button {
 }
 
 form {
+  border-radius: 15px;
   color: white;
   margin-left: 400px;
   margin-right: 400px;
@@ -48,6 +49,7 @@ button:hover {
 }
 
 .container {
+  border-radius: 15px;
   padding: 25px;
   background-color: #6a6967;
 }
