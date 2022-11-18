@@ -1,24 +1,60 @@
-<!DOCTYPE Html> <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Proyecto final desarrollo de apps web">
-    <meta name="author" content="Equipo 6">
-    <link rel="stylesheet" href="app/navbar.css">
-    <title> Busca Asilos </title>
-  </head>
-  <body>
-      <div class="navbar">
-          <ul>
-            <li><h1 class="logo"> Busca Asilos </h1></li>
-            <div class="navbar_item">
-              <li><a href="contacto.html">Contacto</a></li>
-              <li><a href="asilos.html">Asilos</a></li>
-              <li><a href="voluntariado.html">Voluntariados</a></li>
-              <li><a href="index.html">Inicio</a></li>
-            </div>
-          </ul>
-      </div>
-      <h1> hola desde Voluntariados</h1>
-  </body>
-</html>
+<!DOCTYPE Html>
+<html lang="es">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Proyecto final desarrollo de apps web">
+  <meta name="author" content="Equipo 6">
+  <link rel="stylesheet" href="app/navbar.css">
+  <title> Busca Asilos </title>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li>
+        <h1 class="logo"> Busca Asilos </h1>
+      </li>
+      <div class="navbar_item">
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="asilos.html">Asilos</a></li>
+        <li><a href="voluntariado.html">Voluntariados</a></li>
+        <li><a href="index.html">Inicio</a></li>
+      </div>
+    </ul>
+  </div>
+  <h1> hola desde Voluntariados</h1>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-3">
+        <h2 class="mt-4">Crea un alumno</h2>
+        <hr>
+        <form method="post">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="edad">Edad</label>
+            <input type="text" name="edad" id="edad" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="submit" name="submit" class="btn btn-primary" value="Enviar">
+            <a class="btn btn-primary" href="index.php">Regresar al inicio</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
