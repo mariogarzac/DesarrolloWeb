@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Reglas para la barra de navegación */
+.logo {
+  float: left;
+  display: block;
+  padding-left: 10px;
+  padding-top: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar_item li a {
+  display: block;
+  color: white;
+  height: 100%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
