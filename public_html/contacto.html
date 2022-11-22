@@ -1,45 +1,53 @@
-<!DOCTYPE Html> <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Proyecto final desarrollo de apps web">
-    <meta name="author" content="Equipo 6">
-    <link rel="stylesheet" href="app/navbar.css">
-    <link rel="stylesheet" href="app/contacto.css">
-    <title> Busca Asilos </title>
-  </head>
-  <body>
-    <div class="navbar">
-      <ul>
-        <li><h1 class="logo"> Busca Asilos </h1></li>
-        <div class="navbar_item">
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="asilos.html">Asilos</a></li>
-          <li><a href="voluntariado.html">Voluntariados</a></li>
-          <li><a href="index.html">Inicio</a></li>
-        </div>
-      </ul>
-    </div>
-    <body>
-      <br>
-      <center> <h1> Contactanos! </h1> </center>
-      <form>
-        <div class="container">
-          <label>Nombre : </label>
-          <input type="text"  name="nombre" required>
-          <label>Apellido : </label>
-          <input type="text"  name="apellido" required>
-          <label>Teléfono : </label>
-          <input type="text" name="telefono" required>
-          <label> Estado de residencia : </label>
-          <input type="text" name="residencia" required>
-          <label> Fecha de nacimiento : </label>
-          <input type="text"  name="dob" required>
-            Comentarios:
-          <center><textarea id="contacto_textarea" name="contacto_ta" rows="10" cols="100"></textarea></center>
-          <button type="submit"> Enviar! </button>
-        </div>
-      </form>
-    </body>
-  </body>
-</html>
+<!DOCTYPE Html>
+<html lang="es">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Proyecto final desarrollo de apps web">
+  <meta name="author" content="Equipo 6">
+  <link rel="stylesheet" href="app/navbar.css">
+  <link rel="stylesheet" href="app/contacto.css">
+  <title> Busca Asilos </title>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li>
+        <h1 class="logo"> Busca Asilos </h1>
+      </li>
+      <div class="navbar_item">
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="asilos.php">Asilos</a></li>
+        <li><a href="voluntariado.php">Voluntariados</a></li>
+        <li><a href="index.html">Inicio</a></li>
+      </div>
+    </ul>
+  </div>
+
+  <body>
+    <br>
+    <center>
+      <h1> Contactanos! </h1>
+    </center>
+    <form>
+      <div class="container">
+        <label>Nombre : </label>
+        <input type="text" name="nombre" required>
+        <label>Apellido : </label>
+        <input type="text" name="apellido" required>
+        <label>Teléfono : </label>
+        <input type="text" name="telefono" required>
+        <label> Estado de residencia : </label>
+        <input type="text" name="residencia" required>
+        <label> Fecha de nacimiento : </label>
+        <input type="text" name="dob" required>
+        Comentarios:
+        <center><textarea id="contacto_textarea" name="contacto_ta" rows="10" cols="100"></textarea></center>
+        <button type="submit"> Enviar! </button>
+      </div>
+    </form>
+  </body>
+</body>
+
+</html>
